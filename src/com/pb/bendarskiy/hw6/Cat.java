@@ -13,7 +13,7 @@ public class Cat extends Animal{
         this.coatColor = coatColor;
     }
 
-    public void color(){
+    public void Color(){
         coatColor = "red";
         System.out.println(name + " " + coatColor);
     }
